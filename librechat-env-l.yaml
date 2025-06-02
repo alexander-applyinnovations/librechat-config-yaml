@@ -2132,5 +2132,5 @@ endpoints:
 
 mcpServers:
   postgres:
-    type: sse
-    url: ${MCP_URL_POSTGRES}
+    type: "sse"
+    url: "${MCP_URL_POSTGRES}"
