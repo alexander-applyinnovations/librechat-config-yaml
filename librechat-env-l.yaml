@@ -2134,3 +2134,5 @@ mcpServers:
   postgres:
     type: "sse"
     url: "${MCP_URL_POSTGRES}"
+    headers:
+      X-User-ID: "{{LIBRECHAT_USER_ID}}"
