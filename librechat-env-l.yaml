@@ -2129,3 +2129,8 @@ endpoints:
       summaryModel: "grok-beta"
       forcePrompt: false
       modelDisplayLabel: "Grok"
+
+mcpServers:
+  postgres:
+    type: sse
+    url: ${MCP_URL_POSTGRES}
